@@ -24,7 +24,7 @@ Nello stesso package aggiungete una classe Main con metodo main nella quale crea
 :aeroplano: BONUS 1:  Aggiungere una classe Categoria (con nome e descrizione) e associare ad ogni Prodotto una categoria usando la composizione
 :razzo: BONUS 2: Permettere di associare più di una Categoria ad ogni prodotto (usare quindi una ArrayList di categorie come tipo di attributo)*/
 
-        private int code;
+        private final int code;
         private String name;
         private String description;
         private double price;
